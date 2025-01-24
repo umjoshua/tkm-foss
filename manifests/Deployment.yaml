@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: my-flask-app
-        image: <Image>
+        image: umjoshua/flask-app:latest
         resources:
           limits:
             memory: "128Mi"

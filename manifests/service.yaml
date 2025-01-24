@@ -3,8 +3,10 @@ kind: Service
 metadata:
   name: my-flask-app-service
 spec:
+  type: NodePort
   selector:
     app: my-flask-app
   ports:
   - port: 80
     targetPort: 5000
+    nodePort: 32000
