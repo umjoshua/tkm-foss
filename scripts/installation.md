@@ -31,7 +31,10 @@ docker run -d --name jenkins -p 8080:8080 -v jenkins_home:/var/jenkins_home jenk
 1. Docker installation
 Reference: https://snapcraft.io/docker
 
-```sudo snap install docker
+```
+sudo snap install docker
+
+sudo snap install docker
 
 sudo addgroup --system docker
 
