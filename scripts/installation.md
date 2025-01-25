@@ -26,7 +26,7 @@ minikube start
 ```
 docker run -d --name jenkins -p 8080:8080 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
-# Environment  - Windows
+# Environment  - Linux
 
 1. Docker installation
 Reference: https://snapcraft.io/docker
